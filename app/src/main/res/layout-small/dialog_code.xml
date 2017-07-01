@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="เติม CODE แล้วอาจต้องใช้เวลา 5-10 นาทีเพื่อยืนยันรหัส"
+        android:id="@+id/textView7"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_red_light" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edtCode"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="48dp" />
+</LinearLayout>

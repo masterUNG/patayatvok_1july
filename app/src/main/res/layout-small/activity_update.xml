@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loadingPanel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".UpdateCheck">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:weightSum="1">
+
+
+        <ProgressBar
+            android:indeterminateDrawable="@drawable/my_progress_indeterminate"
+            android:layout_height="205dp"
+            android:layout_width="249dp">
+
+        </ProgressBar>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="กรุณารอสักครู่ระบบกำลังทำการอัพเดท"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#8c8c8c" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="( ในการเข้าใช้งานครั้งแรกอาจจะต้องใช้เวลาในการติดตั้งต่างๆโปรดรอ 10-30 นาทีเพื่อติดตั้ง )"
+            android:id="@+id/textView1"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#8c8c8c" />
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

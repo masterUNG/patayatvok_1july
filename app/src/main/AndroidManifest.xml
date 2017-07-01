@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.royle.beartv2"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="24" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.EXTRA_RETURN_RESULT" />
+    <uses-permission android:name="android.intent.action.UNINSTALL_PACKAGE" />
+    <uses-permission android:name="android.intent.action.INSTALL_PACKAGE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+
+    <compatible-screens>
+        <screen android:screenSize="small"
+            android:screenDensity="ldpi" />
+        <screen android:screenSize="small"
+            android:screenDensity="mdpi" />
+        <screen android:screenSize="small"
+            android:screenDensity="hdpi" />
+        <screen android:screenSize="small"
+            android:screenDensity="xhdpi" />
+        <screen android:screenSize="normal"
+            android:screenDensity="ldpi" />
+        <screen android:screenSize="normal"
+            android:screenDensity="mdpi" />
+        <screen android:screenSize="normal"
+            android:screenDensity="hdpi" />
+        <screen android:screenSize="normal"
+            android:screenDensity="xhdpi" />
+    </compatible-screens>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.royle.beartv2.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.royle.beartv2.UpdateCheck"
+            android:label="UpdateCheck"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.royle.beartv2.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="user.RefillActivity"
+            android:label="@string/title_activity_refill"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="user.RegisterActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="user.LoginActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="user.ChangePassActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="iptv.IpTvActivity"
+            android:label="@string/title_activity_ip_tv"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="iptv.TvCategoryActivity"
+            android:label="@string/title_activity_tv_category"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="movie.MovieActivity"
+            android:label="@string/title_activity_movie"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="movie.MovieCategoryActivity"
+            android:label="@string/title_activity_movie_category"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="movie.MovieDetailActivity"
+            android:label="@string/title_activity_movie_detail"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="user.UserProfileActivity"
+            android:label="@string/title_activity_user_profile"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.royle.beartv2.SearchActivity"
+            android:label="@string/title_activity_search"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="com.royle.beartv2.NewsActivity"
+            android:label="@string/title_activity_news"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="series.SeriesActivity"
+            android:label="@string/title_activity_series"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="series.SeriesCategoryActivity"
+            android:label="@string/title_activity_series"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="series.SeriesDetailActivity"
+            android:label="@string/title_activity_series_detail"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ebook.EbookActivity"
+            android:label="@string/title_activity_ebook"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ebook.WebViewEbookActivity"
+            android:label="@string/title_activity_web_view_ebook"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ebook.EbookCategoryActivity"
+            android:label="@string/title_activity_ebook_category"
+            android:screenOrientation="landscape" />
+        <!-- <service android:name="com.royle.tv4k.ServiceCheck"></service> -->
+
+        <activity
+            android:name="user.MailActivity"
+            android:label="MailActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="user.SupportActivity"
+            android:label="SupportActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.royle.beartv2.SearchSRActivity"
+            android:label="SearchSR"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="user.CheckTrueMoneyActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="user.HowtoActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.royle.beartv2.Mxplayer"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <activity
+            android:name="com.royle.beartv2.SportActivity"
+            android:label="SportActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name="com.royle.beartv2.WebViewPayPalActivity" />
+
+        <activity
+            android:name="user.ErrorActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <service
+            android:name="meklib.KeepAlive"
+            android:label="KeepAlive" >
+        </service>
+    </application>
+</manifest>

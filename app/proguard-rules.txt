@@ -1,0 +1,6 @@
+-optimizationpasses 5
+-overloadaggressively
+-repackageclasses ''
+-allowaccessmodification
+
+-dontwarn com.squareup.okhttp.**

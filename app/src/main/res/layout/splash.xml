@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/splash_image"
+        android:id="@+id/lin_lay1"
+        android:gravity="center"
+        android:scaleType="centerInside">
+
+        <ImageView
+            android:layout_width="227dp"
+            android:layout_height="184dp"
+            android:id="@+id/logo"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/splash_logo"
+            android:foregroundGravity="center" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/versionName"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/version"
+            android:textColor="#795401"
+            android:gravity="center_horizontal"
+            android:textSize="30dp"
+            android:textIsSelectable="false"
+            android:singleLine="false"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lin_lay"
+            android:layout_gravity="center_horizontal"
+            android:text="กำลังเข้าสู่ระบบ"
+            android:gravity="center_horizontal"
+            android:textIsSelectable="false"
+            android:singleLine="false"
+            android:textStyle="normal|bold"
+            android:textAllCaps="true"
+            android:typeface="normal"
+            android:textSize="24sp" />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

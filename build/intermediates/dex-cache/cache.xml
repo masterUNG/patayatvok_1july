@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\4k\patayatvok_1july\librarySlider\build\intermediates\bundles\default\libs\NineOldAndroid-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f086e018e187da53a1432c188023c86d1fa3ff73">
+        <dex dex="F:\4k\patayatvok_1july\app\build\intermediates\transforms\dex\debug\folders\1000\8\NineOldAndroid-2.4.0_80805e447492ef041d15f270e7cc5e12a486d8fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\4k\patayatvok_1july\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="78275c0040244674ca7e26f060bd8bc81dd5dff8">
+        <dex dex="F:\4k\patayatvok_1july\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a97f60953aa7cae3c7ff26cfd3550217e11ab015\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\4k\patayatvok_1july\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="F:\4k\patayatvok_1july\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_c0d1956204eb1d48f2df32e680bd7c4cdd3b5f60\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\4k\patayatvok_1july\librarySlider\build\intermediates\bundles\default\libs\picasso-2.3.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4f2e6b6da46083dab659c8825417161a2a90cbee">
+        <dex dex="F:\4k\patayatvok_1july\app\build\intermediates\transforms\dex\debug\folders\1000\8\picasso-2.3.3_64eaf30d04fe5c1328443a22737cd651ef198b74\classes.dex" />
+    </item>
+
+</items>
